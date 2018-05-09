@@ -11,7 +11,7 @@
 
 <body>
 
-  <div id='app'>
+  <div id='app' class='center'>
 
     <div id='headers'>
       <!-- Title and subtitles! -->
@@ -22,30 +22,30 @@
     <div id='main'>
       <div id='input-parent'>
         <!-- Player's guess input, and submit button -->
-        <input type='number' autofocus='true' placeholder='Type a guess!'></input>
-        <button>Submit</button>
+        <input id='player-input' class='center' maxlength='3' autofocus=true placeholder='Type a guess!'></input>
+        <button id='submit'>Submit</button>
       </div>
 
       <div id='guesses'>
         <!-- unordered list of guesses -->
-        <ul>
-          <li>Guess #1</li>
-          <li>Guess #2</li>
-          <li>Guess #3</li>
-          <li>Guess #4</li>
-          <li>Guess #5</li>
+        <ul id='guess-list'>
+          <li class='guess'>Guess #1</li>
+          <li class='guess'>Guess #2</li>
+          <li class='guess'>Guess #3</li>
+          <li class='guess'>Guess #4</li>
+          <li class='guess'>Guess #5</li>
         </ul>
       </div>
 
       <div id="menu-btns">
         <!-- reset and hint buttons -->
-        <button>Reset</button>
-        <button>Hint</button>
+        <button id='reset'>Reset</button>
+        <button id='hint'>Hint</button>
       </div>
     </div>
   </div>
 
-  <div id='footer'>
+  <div id='footer' class='center'>
     <div>
       <div class=''>
         <img src='fa-logo.png'></img>
