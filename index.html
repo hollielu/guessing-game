@@ -22,24 +22,24 @@
       <h1 id='title'>
         <strong>Guessing Game</strong>
       </h1>
-      <h2 id='subtitle'>Guess a number between 1-100.</h2>
+      <h3 id='subtitle'>Guess a number between 1-100.</h2>
     </div>
 
     <div id='main'>
       <div id='input-parent'>
         <!-- Player's guess input, and submit button -->
-        <input id='player-input ' class='center form-control-lg' maxlength='3' autofocus=true placeholder='Type a guess!'></input>
+        <input id='player-input' class='center form-control-lg' maxlength='3' autofocus=true placeholder='Type a guess.'></input>
         <button type='button' id='submit' class='btn btn-dark btn-lg'>Submit</button>
       </div>
 
       <div id='guesses'>
         <!-- unordered list of guesses -->
         <ul id='guess-list'>
-          <li class='guess'>#1</li>
-          <li class='guess'>#2</li>
-          <li class='guess'>#3</li>
-          <li class='guess'>#4</li>
-          <li class='guess'>#5</li>
+          <li class='guess'>x</li>
+          <li class='guess'>x</li>
+          <li class='guess'>x</li>
+          <li class='guess'>x</li>
+          <li class='guess'>x</li>
         </ul>
       </div>
 
@@ -49,6 +49,8 @@
         <button type='button' id='hint' class='btn btn-light btn-lg'>Hint</button>
       </div>
     </div>
+
+    <h3 id='hints'></h1>
   </div>
 
   <div id='footer' class='center'>
@@ -67,7 +69,8 @@
 
     </div>
   </div>
-
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src='js/GuessingGame.js'></script>
 </body>
 
 </html>
