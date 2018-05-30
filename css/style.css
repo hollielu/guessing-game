@@ -67,3 +67,8 @@ body {
 #guesses {
     margin-top: 20px;
 }
+
+#hints {
+    margin-top: 20px;
+    margin-right: 20px;
+}
